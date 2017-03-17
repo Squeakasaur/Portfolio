@@ -1,0 +1,58 @@
+.modal-content{
+    width: 925px;
+    height: 800px;
+    margin: auto;
+    background-color:transparent;
+    border: none;
+    color: white;
+}
+
+.modal-dialog{
+    display: flex;
+    justify-content: center;
+}
+.imgbutton{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+
+<<<<<<< HEAD
+ img{
+=======
+.fancybox img{
+>>>>>>> origin/master
+    height: 200px;
+}
+.fancybox-title.fancybox-title-float-wrap .child{
+    background: rgba(0,0,0,0);
+}
+button:focus{
+    outline: 0;
+}
+
+.modal{
+    margin: auto;
+}
+
+.modalscontainer{
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> origin/master

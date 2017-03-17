@@ -1,0 +1,21 @@
+#emaildesigns,
+#websitedesigns {
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#emaildesigns img,
+#websitedesigns img {
+	width: 200px;
+	height: 250px;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+hr {
+	width: 50%;
+	border: 2px solid lightgray;
+}

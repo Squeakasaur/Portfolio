@@ -1,0 +1,229 @@
+/***************************************************************************************************
+
+
+
+
+
+
+
+****************************************************************************************************/
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url(../fonts/CaviarDreams_Bold.ttf);
+}
+
+/* -------------------Nav styles------------------- */
+.personalStyles {
+    font-family: CaviarDreams, sans-serif;
+
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: #bcdff1;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #bcdff1;
+}
+
+.nav-link{
+    padding: 0;
+}
+
+/* -------------------end nav styles------------------- */
+
+/* -------------------Main Content Styles------------------- */
+html{
+    height: 100%;
+
+}
+body {
+    font-family: CaviarDreams, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height:100%;
+}
+
+.maincontent{
+    flex: 1;
+    padding-bottom: 20px;
+}
+
+
+#intro, #details, #skills {
+    width: 100%;
+    height: 33.33%;
+}
+
+/*
+#intro, #skills {
+    background-color: #bcdff1;
+}
+*/
+
+.jumbotron {
+    background: lightgray;
+}
+
+/* Skills section styles */
+
+.container-skills {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.container-skills img {
+    border-radius: 20px;
+}
+
+#programming-content {
+    margin-right: 15px;
+}
+
+#programming-content, #design-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-top: 10px;
+    background-color: #eceeef;
+    border: 0 solid black;
+    border-radius: 20px;
+    min-width: 10%;
+}
+
+#programming-content .progress, #design-content .progress {
+    margin-bottom: 15px;
+    margin-left: 25%;
+    max-width: 300px;
+    min-width: 10%;
+    background-color: lightgray;
+}
+
+#programming-content .progress-bar, #design-content .progress-bar {
+    background-color: #2aabd2;
+}
+
+#programming-content h3, #design-content h3 {
+    text-align: center;
+    font-size: 24px;
+
+}
+
+/* School and Work Experience Styles */
+
+.eduex-content {
+    margin-top: 20px;
+    background: lightgray;
+    width: 100%;
+    height: 300px;
+    border-top: 5px solid darkgray;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+}
+
+#edu {
+    background-color: lightblue;
+    width: 50%;
+    height: 100%;
+    border-right: 2px dashed darkgray;
+
+}
+
+#internaledu, #internalexp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.schoolinfo, .workinfo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    line-height: 10%;
+}
+
+.schoolinfo i, .workinfo i{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+
+#exp {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.eduex-content h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* end school and work styles */
+
+/* -------------------end main content styles------------------- */
+
+/* -------------------Footer Styles------------------- */
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: #bcdff1;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+
+}
+
+.push{
+
+}
+
+
+
+/* -------------------end footer styles------------------- */
